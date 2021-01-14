@@ -1,2 +1,2 @@
-[![](https://i.imgur.com/E8Kj69Y.png)](https://kernc.github.io/backtesting.py/)
-# StocksView
+[![](https://github.com/Vignesh0196/StocksView/stocksview.jpg)](https://kernc.github.io/backtesting.py/)# StocksView
+
