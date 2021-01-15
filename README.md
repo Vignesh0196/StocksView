@@ -14,3 +14,7 @@ Dashboard
 ### Requirements
     $ pip install -r requirements.txt
 
+### Starting Application 
+    $ bokeh serve stocksview
+   
+[![](https://github.com/Vignesh0196/StocksView/blob/main/starting_bokeh.png)](https://github.com/Vignesh0196/StocksView)
