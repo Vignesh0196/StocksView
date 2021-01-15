@@ -23,11 +23,11 @@ Dashboard
 
 ### Configuration
 - Add your configuration in config.json
-```json
+```javascript
 "aroon": {
-			"name": "aaron",
-			"columns": ["aroonup", "aroondown"],
-			"default_types": ["line", "line"],
-			"graph_types": ["line", "bar", "area"]
-		}
+	"name": "aaron",
+	"columns": ["aroonup", "aroondown"],
+	"default_types": ["line", "line"],
+	"graph_types": ["line", "bar", "area"]
+}
 ```
