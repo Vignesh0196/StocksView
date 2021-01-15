@@ -23,7 +23,7 @@ Dashboard
 
 ### Configuration
 - Add your configuration in config.json
-```javascript
+```python
 "aroon": {
 	"name": "aaron",
 	"columns": ["aroonup", "aroondown"],
