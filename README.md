@@ -11,3 +11,6 @@ Dashboard
 ### Demo
 [![](https://github.com/Vignesh0196/StocksView/blob/main/Demo.gif)](https://github.com/Vignesh0196/StocksView)
 
+### Requirements
+    $ pip install -r requirements.txt
+
