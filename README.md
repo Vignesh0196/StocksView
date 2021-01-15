@@ -20,3 +20,14 @@ Dashboard
 [![](https://github.com/Vignesh0196/StocksView/blob/main/starting_bokeh.png)](https://github.com/Vignesh0196/StocksView)
 - Open your browser and paste this URL and Visualize your Data
 - Connect you Real-Time Data stream in stream() function inside main.py
+
+### Configuration
+- Add your configuration in config.json
+```json
+"aroon": {
+			"name": "aaron",
+			"columns": ["aroonup", "aroondown"],
+			"default_types": ["line", "line"],
+			"graph_types": ["line", "bar", "area"]
+		}
+```
