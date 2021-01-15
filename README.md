@@ -31,3 +31,5 @@ Dashboard
 	"graph_types": ["line", "bar", "area"]
 }
 ```
+- Code snippet to add a New Indicator called AROON
+- Add this inside config.json under the Key called **indicators**
