@@ -7,3 +7,7 @@
 Dashboard
 * Also connect you Real-Time data stream into the graphs using Connectors
 * Add your own graphs with different Technical Indicators
+
+### Demo
+[![](https://github.com/Vignesh0196/StocksView/blob/main/Demo.gif)](https://github.com/Vignesh0196/StocksView)
+
