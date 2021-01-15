@@ -1,0 +1,61 @@
+{
+	"indicators": {
+		"alligator": {
+			"name": "alligator",
+			"columns": ["wa_jaw", "wa_teeth", "wa_lips"],
+			"default_types": ["line", "line", "line"],
+			"graph_types": ["line", "area"]
+		},
+		"psar": {
+			"name": "psar",
+			"columns": ["p_sar"],
+			"default_types": ["line"],
+			"graph_types": ["line", "bar", "area"]
+		},
+		"st_1": {
+			"name": "st_1",
+			"columns": ["st_7_3"],
+			"default_types": ["line"],	
+			"graph_types": ["line", "bar"]
+		},
+		"aroon": {
+			"name": "aaron",
+			"columns": ["aroonup", "aroondown"],
+			"default_types": ["line", "line"],
+			"graph_types": ["line", "bar", "area"]
+		},
+		"volume": {
+			"name": "volume",
+			"columns": ["vol"],
+			"default_types": ["bar"],
+			"graph_types": ["line", "bar", "area"]
+		}
+	},
+	
+	"figures": {
+		"fig1": {
+			"name": "fig1",
+			"cat": "main",
+			"default": ["Close"],
+			"columns": ["Open", "High", "Low", "Close", "ha_open", "ha_high", "Low", "ha_close", "candle_stick_color"],	
+			"entities": {"ohlc": ["Open", "High", "Low", "Close"], "heiken_ashi": ["ha_open", "ha_high", "ha_close"]},
+			"graph_types": ["line", "area", "candle_stick", "heiken_ashi"],
+			"annotations": ["Close"],
+			"indicators": ["alligator", "st_1", "psar"],
+			"x_axis": "Time"
+		},
+		"fig2": {
+			"name": "fig2",
+			"cat": "sub",
+			"indicators": ["aroon"],
+			"x_axis": "Time"	
+		},
+		"fig3": {
+			"name": "fig3",
+			"cat": "sub",
+			"indicators": ["volume"],
+			"x_axis": "Time"	
+		}
+	}
+	
+}
